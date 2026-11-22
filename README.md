@@ -15,3 +15,20 @@ Install dependencies and browser binaries:
 ```bash
 npm install
 npx playwright install chromium
+```
+
+Run all tests:
+```bash
+npm test
+```
+
+Run specific test suites:
+```bash
+npm run test:ui
+npm run test:api
+```
+
+View HTML test report:
+```bash
+npm run report
+```
